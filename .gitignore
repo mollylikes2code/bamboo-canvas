@@ -1,0 +1,16 @@
+@"
+# Dependencies / builds
+node_modules/
+dist/
+.vite/
+*.log
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+"@ | Out-File -Encoding utf8 .gitignore
